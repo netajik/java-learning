@@ -1,4 +1,4 @@
-package threads;
+package multithreading.threads;
 
 public class ThreadLifeCycle {
     public static void main(String[] args) {

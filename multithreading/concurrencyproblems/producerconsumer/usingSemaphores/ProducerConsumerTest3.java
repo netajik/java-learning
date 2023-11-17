@@ -1,4 +1,4 @@
-package concurrency.producerConsumerProblems.usingSemaphores;
+package multithreading.concurrencyproblems.producerconsumer.usingSemaphores;
 
 public class ProducerConsumerTest3 {
 

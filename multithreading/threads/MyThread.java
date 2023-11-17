@@ -1,4 +1,4 @@
-package threads;
+package multithreading.threads;
 
 /**
  * User defined Thread creation using Thread class

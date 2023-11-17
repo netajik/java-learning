@@ -1,4 +1,4 @@
-package com.javabasics.multithreading;
+package multithreading.threads;
 
 /**
  * Daemon Threads are working in background to support main threads

@@ -1,4 +1,4 @@
-package concurrency.threads;
+package multithreading.threads;
 
 public class ThreadPriority extends Thread {
 

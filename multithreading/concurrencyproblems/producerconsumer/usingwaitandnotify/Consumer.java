@@ -1,8 +1,8 @@
-package concurrency.producerConsumerProblems.usingWaitAndNotify;
+package multithreading.concurrencyproblems.producerconsumer.usingwaitandnotify;
 
 import java.util.Queue;
 
-class Consumer extends Thread{
+class Consumer extends Thread {
 
     private Queue<Integer> sharedQueue;
 
@@ -31,3 +31,5 @@ class Consumer extends Thread{
         }
     }
 }
+
+

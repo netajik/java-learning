@@ -1,4 +1,4 @@
-package com.java8features;
+package java8features;
 
 /**
  *  Functional interfaces are a new concept introduced in Java 8.

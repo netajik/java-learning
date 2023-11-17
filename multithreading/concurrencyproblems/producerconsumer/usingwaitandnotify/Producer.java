@@ -1,4 +1,4 @@
-package concurrency.producerConsumerProblems.usingWaitAndNotify;
+package multithreading.concurrencyproblems.producerconsumer.usingwaitandnotify;
 
 import java.util.Queue;
 import java.util.Random;
@@ -15,7 +15,8 @@ class Producer extends Thread{
     public void run() {
         while(true){
             synchronized (sharedQueue) {
-                while(sharedQueue.size()==5){
+                while(sharedQueue.size()==5)
+                {
                     try{
                         System.out.println("Producer is waiting for consumer to consume");
                         sharedQueue.wait();
