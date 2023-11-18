@@ -1,4 +1,17 @@
-package multithreading.concurrencyproblems.producerconsumer.usingSemaphores;
+package multithreading.concurrencyproblems.producerconsumer.usingsemaphores;
 
-public class Producer {
+import java.util.Random;
+
+public class Producer extends Thread{
+    Queue queue;
+    Producer(Queue queue) {
+        this.queue = queue;
+    }
+    
+    @Override
+    public void run() {
+        while(true) {
+            this.queue.put();
+        }
+    }
 }

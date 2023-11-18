@@ -1,4 +1,4 @@
-package multithreading.concurrencyproblems.producerconsumer.usingBlockingQueue;
+package multithreading.concurrencyproblems.producerconsumer.usingblockingqueue;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -16,10 +16,12 @@ public class ProducerConsumerTest2 {
          * to become non-empty when retrieving an element, and wait for space to
          * become available in the queue when storing an element.
          */
-        BlockingQueue<Integer> sharedQueue = new LinkedBlockingQueue<>();
+        BlockingQueue<Integer> sharedQueue = new LinkedBlockingQueue<>(5);
         Producer producer = new Producer(sharedQueue);
         Consumer consumer = new Consumer(sharedQueue);
         producer.start();
         consumer.start();
     }
 }
+
+

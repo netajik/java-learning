@@ -1,6 +1,5 @@
-package multithreading.concurrencyproblems.producerconsumer.usingBlockingQueue;
+package multithreading.concurrencyproblems.producerconsumer.usingblockingqueue;
 
-import java.util.Queue;
 import java.util.concurrent.BlockingQueue;
 
 class Consumer extends Thread {

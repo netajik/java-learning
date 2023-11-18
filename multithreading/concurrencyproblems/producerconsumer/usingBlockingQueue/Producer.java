@@ -1,4 +1,4 @@
-package multithreading.concurrencyproblems.producerconsumer.usingBlockingQueue;
+package multithreading.concurrencyproblems.producerconsumer.usingblockingqueue;
 
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;

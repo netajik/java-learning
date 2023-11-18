@@ -1,4 +1,5 @@
 package java8features;
+
 @FunctionalInterface
 interface A {
     void show();
