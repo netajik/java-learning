@@ -1,10 +1,11 @@
 package multithreading.concurrencyproblems.producerconsumer.usingwaitandnotify;
 
+import java.util.Optional;
 import java.util.Queue;
 import java.util.Random;
 
-class Producer extends Thread{
-
+class Producer extends Thread {
+    Optional optional;
     private Queue<Integer> sharedQueue;
     private final int MAX_SIZE = 5;
 

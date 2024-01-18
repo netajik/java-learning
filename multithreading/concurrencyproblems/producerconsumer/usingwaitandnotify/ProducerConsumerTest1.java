@@ -31,3 +31,5 @@ public class ProducerConsumerTest1 {
     To address this issue, you can modify the code to use notifyAll() instead of notify(). 
     This will wake up all waiting threads, allowing the consumer to be awakened after the producer produces an item, and vice versa.
  */
+
+ // https://www.scaler.com/topics/inter-thread-communication-in-java/
