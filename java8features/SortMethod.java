@@ -40,8 +40,7 @@ public class SortMethod {
       list3.stream().sorted((name1, name2) -> -name1.compareTo(name2)).forEach(num -> System.out.println(num));
 
       // Note: If only sorting required then we use first or second approch. If we
-      // have to any filter or maping
-      // along with sorting then use stream sort
+      // have to any filter or maping along with sorting then use stream sort
 
       // using method reference
       System.out.println();

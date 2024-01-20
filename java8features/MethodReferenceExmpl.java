@@ -38,7 +38,7 @@ public class MethodReferenceExmpl {
         employees = List.of(new Employee(1, "raju", 100d),
                 new Employee(2, "ravi", 15000d),
                 new Employee(3, "ramu", 15000d));
-        // Note: In java when we print the reference variable then it is
+        // Note: In java when we print the reference variable then it will
         // automatically call toString() method.
         System.out.println();
         employees.stream().filter(Employee::salarayCheck).forEach(System.out::println);
@@ -53,7 +53,7 @@ public class MethodReferenceExmpl {
         integers.forEach(System.out::println);
 
         System.out.println();
-        System.out.println("String length using map and method reference");
+        System.out.println("String length using map method and method reference");
         List<Integer> striglengsths = stringLength(names1);
         striglengsths.forEach(System.out::println);
 

@@ -8,7 +8,6 @@ package java8features;
  * @FunctionalInterface annotation is a facility to avoid the accidental addition
  * of abstract methods in the functional interfaces.
  */
-@java.lang.FunctionalInterface
 public interface FunctionalInterface {
     void method1(String str);
 

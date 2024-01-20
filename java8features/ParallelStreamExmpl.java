@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Parallel stream takes less to time then sequential stream.
+ * Parallel stream takes less time then sequential stream.
  * Parallel streams runs on multiple processors and reduce processing time.
  * Order of result different campare to sequential stream
  */

@@ -6,8 +6,7 @@ import java.util.stream.Collectors;
 
 /**
  * map method used to perform opetations on every element in sequence.
- * map method internall uses Functional interface
- * and it contains apply abstract method.
+ * map method internall uses Functional interface and it contains apply abstract method.
  * To define apply method of Functional interface, we can use lambda expression
  * as shwon below.
  */
@@ -35,7 +34,7 @@ public class MapMethodExmpl {
         System.out.println();
         System.out.println("Employee object printing using map");
         employees.stream().map(employee -> {
-            employee.ename = employee.ename + "it";
+            employee.ename = employee.ename.concat("it");
             return employee;
         }).forEach(employee -> System.out.println(employee));
     }

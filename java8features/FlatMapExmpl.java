@@ -8,9 +8,8 @@ import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 /**
- * Flatmap used to convert collection of collection objects in to single
- * collection.
- * Example converting list of list into single list.
+ * Flatmap used to convert collection of collection objects into single collection.
+ * Example converting list of lists into single list.
  */
 public class FlatMapExmpl {
     public static void main(String[] args) {

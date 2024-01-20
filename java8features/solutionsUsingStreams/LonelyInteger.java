@@ -10,8 +10,7 @@ public class LonelyInteger {
         System.out.println(lonelyinteger(List.of(1,2,3,4,3,2,1)));
     }
 
-    public static int lonelyinteger(List<Integer> a) {
-        
-        return a.stream().reduce((b,c)->b^c).get();
+    public static int lonelyinteger(List<Integer> list) {
+        return list.stream().reduce((b,c)->b^c).get();
     }
 }
